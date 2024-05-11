@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+#include<bits/stdc++.h>
+#include<ext/pb_ds/assoc_container.hpp>
+#include<ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+using namespace std;
+#ifndef ONLINE_JUDGE
+    #include "debugger.h"
+ #else
+   #define debug(x);
+#endif
+template<class T> using oset=tree<T,null_type,less<T>,rb_tree_tag,tree_order_statistics_node_update>;// *nm.find_by_order(num)  nm.order_of_key(num) 
+void solve()
+{
+}//end
+int main()
+{
+#ifndef ONLINE_JUDGE
+  freopen("error.txt","w",stderr);
+#endif
+  ios_base::sync_with_stdio(false);
+  cin.tie(NULL);
+  cout.tie(NULL);
+  solve();
+}  
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>start</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>
